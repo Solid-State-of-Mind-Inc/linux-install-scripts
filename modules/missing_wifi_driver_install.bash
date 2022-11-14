@@ -10,5 +10,5 @@ if [[ $machine == *Alienware\ x17\ R2* ]]; then
     sudo apt install -f
     rm backport-iwlwifi-dkms_*.deb
 else
-    echo "SKIPPING: Wi-Fi driver manual install. Alienware x17 R2 model not detected"
+    echo "SKIPPING: Wi-Fi driver manual install. $machine detected"
 fi
