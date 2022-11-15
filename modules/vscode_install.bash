@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 sudo apt install -y software-properties-common apt-transport-https wget
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo add-apt-repository -y "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install code
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension ms-python.python

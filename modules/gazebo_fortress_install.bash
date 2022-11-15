@@ -17,11 +17,18 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-
 sudo apt-get update
 # Install all dependencies
 sudo apt -y install \
-  $(sort -u $(find . -iname 'packages-'`lsb_release -cs`'.apt' -o -iname 'packages.apt' | grep -v '/\.git/') | sed '/ignition\|sdf/d' | tr '\n' ' ')
+$(sort -u $(find . -iname 'packages-'`lsb_release -cs`'.apt' -o -iname 'packages.apt' | grep -v '/\.git/') | sed '/ignition\|sdf/d' | tr '\n' ' ')
 # Build the Gazebo libraries (Without tests)
 colcon graph
 colcon build --cmake-args -DBUILD_TESTING=OFF --merge-install
-echo ". ~/workspace/install/setup.bash" >> ~/.bashrc
+# Check if default shell is ZSH
+FILE=~/.zshrc
+if [ -f "$FILE" ]; then
+    echo ". ~/workspace/src/install/setup.zsh" >> ~/.zshrc
+else
+    echo ". ~/workspace/src/install/setup.bash" >> ~/.bashrc
+fi
+echo ""
 # Print version (version should be at least 6.13)
 ign gazebo --version
 # Set current directory to the script folder
