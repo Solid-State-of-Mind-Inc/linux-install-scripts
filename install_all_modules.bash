@@ -20,6 +20,7 @@ sudo apt install -y openssh-server
 sudo apt install -y git git-lfs gcc-10
 ./github_cli_install.bash
 ./vscode_install.bash
+./cppcheck_install.bash
 
 # Robotics specific
 ./ros_install.bash
