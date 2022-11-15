@@ -1,4 +1,28 @@
 # linux-install-scripts
+## Available modules
+### Drivers
+- Nvidia GPU driver
+- Wi-Fi driver fix for Alienware x17 R2
+
+### Generic Software
+- Google Chrome
+- Slack Desktop
+
+### Generic Tools
+- SSH server
+- SpeedTest.net cli
+- OBS Studio
+
+### Developer Tools
+- git
+- git-lfs
+- GitHub cli
+- Visual Studio Code (with extensions)
+- CppCheck (with GUI)
+
+### Robotics Tools
+- ROS
+- Gazebo Fortress
 
 ## Usage
 1. `cd linux-install-scripts`
