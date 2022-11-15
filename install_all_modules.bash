@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y apt-utils curl htop neofetch vim
+sudo apt install -y apt-utils curl htop neofetch net-tools vim
 cd modules/
 
 # Drivers
