@@ -7,22 +7,22 @@ cd modules/
 ./nvidia_driver_install.bash
 ./missing_wifi_driver_install.bash
 
-# Software
+# Generic Software
 ./google_chrome_install.bash
 ./slack_install.bash
 
-# Generic tools
+# Generic Tools
 sudo apt install -y openssh-server
 ./speedtest_cli_install.bash
 ./obs_studio_install.bash
 
-# Developer tools
+# Developer Tools
 sudo apt install -y git git-lfs gcc-10
 ./github_cli_install.bash
 ./vscode_install.bash
 ./cppcheck_install.bash
 
-# Robotics specific
+# Robotics Tools
 ./ros_install.bash
 ./gazebo_fortress_install.bash
 
