@@ -12,6 +12,7 @@
 - SSH server
 - SpeedTest.net cli
 - OBS Studio
+- Flameshot (screenshot software)
 
 ### Developer Tools
 - git
