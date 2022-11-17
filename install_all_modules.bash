@@ -15,6 +15,7 @@ cd modules/
 sudo apt install -y openssh-server
 ./speedtest_cli_install.bash
 ./obs_studio_install.bash
+./flameshot_install.bash
 
 # Developer Tools
 sudo apt install -y git git-lfs gcc-10
