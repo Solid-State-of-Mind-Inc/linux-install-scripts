@@ -2,7 +2,7 @@
 ## Available modules
 ### Drivers
 - Nvidia GPU driver
-- Wi-Fi driver fix for Alienware x17 R2
+- Wi-Fi driver fix for **Killer(R) Wi-Fi 6E AX1675s 160MHz Wireless Network Adapter (211NGW)** in **Alienware x17 R2**
 
 ### Generic Software
 - Google Chrome
