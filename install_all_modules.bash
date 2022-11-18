@@ -18,7 +18,7 @@ sudo apt install -y openssh-server
 ./flameshot_install.bash
 
 # Developer Tools
-sudo apt install -y git git-lfs gcc-10
+sudo apt install -y git git-lfs gcc-10 libstdc++-10-dev
 ./github_cli_install.bash
 ./vscode_install.bash
 ./cppcheck_install.bash
