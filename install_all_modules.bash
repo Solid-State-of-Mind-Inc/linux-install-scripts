@@ -5,7 +5,7 @@ cd modules/
 
 # Drivers
 ./nvidia_driver_install.bash
-./missing_wifi_driver_install.bash
+./killer_wifi_6e_ax1675_driver_install.bash
 
 # Generic Software
 ./google_chrome_install.bash
