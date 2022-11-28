@@ -1,4 +1,5 @@
 # linux-install-scripts
+Tested on Ubuntu Focal 20.04 LTS
 ## Available modules
 ### Drivers
 - Nvidia GPU driver
