@@ -27,8 +27,13 @@ Tested on Ubuntu Focal 20.04 LTS
 - Gazebo Fortress
 
 ## Usage
+### Install all modules
 1. `cd linux-install-scripts`
 2. Comment the modules you don't require in the `install_all_modules.bash` script using `nano` or `gedit`
 3. `chmod 755 install_all_modules.bash`
 4. `chmod 755 modules/*.bash`
 5. `./install_all_modules.bash`
+
+### Instal a single module
+1. `cd linux-install-scripts/modules/`
+2. run the selected script. ex.: `./gazebo_fortress_install.bash`
