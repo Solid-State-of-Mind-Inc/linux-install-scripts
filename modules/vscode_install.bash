@@ -14,3 +14,4 @@ code --install-extension llvm-vs-code-extensions.vscode-clangd
 code --install-extension ms-vscode.cmake-tools
 code --install-extension matepek.vscode-catch2-test-adapter
 code --install-extension hbenl.vscode-test-explorer
+code --install-extension vortizhe.simple-ruby-erb
