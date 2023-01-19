@@ -30,6 +30,7 @@ else
 fi
 echo ""
 # Print version (version should be at least 6.13)
+source ~/.bashrc
 ign gazebo --version
 # Set current directory to the script folder
 cd $PWD
