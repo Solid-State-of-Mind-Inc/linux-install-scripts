@@ -24,13 +24,14 @@ colcon build --cmake-args -DBUILD_TESTING=OFF --merge-install
 # Check if default shell is ZSH
 FILE=~/.zshrc
 if [ -f "$FILE" ]; then
+    echo "export __NV_PRIME_RENDER_OFFLOAD=1" >> ~/.zshrc
+    echo "export __GLX_VENDOR_LIBRARY_NAME=nvidia" >> ~/.zshrc
     echo ". ~/workspace/src/install/setup.zsh" >> ~/.zshrc
 else
+    echo "export __NV_PRIME_RENDER_OFFLOAD=1" >> ~/.bashrc
+    echo "export __GLX_VENDOR_LIBRARY_NAME=nvidia" >> ~/.bashrc
     echo ". ~/workspace/src/install/setup.bash" >> ~/.bashrc
 fi
 echo ""
-# Print version (version should be at least 6.13)
-source ~/.bashrc
-ign gazebo --version
 # Set current directory to the script folder
 cd $PWD
