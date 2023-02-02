@@ -22,6 +22,7 @@ sudo apt install -y git git-lfs gcc-10 libstdc++-10-dev
 ./github_cli_install.bash
 ./vscode_install.bash
 ./cppcheck_install.bash
+./terminator_install.bash
 
 # Robotics Tools
 ./ros_install.bash
