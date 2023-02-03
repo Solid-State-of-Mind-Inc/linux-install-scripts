@@ -24,7 +24,7 @@ Tested on Ubuntu Focal 20.04 LTS
 
 ### Robotics Tools
 - ROS
-- Gazebo Fortress
+- Gazebo Fortress (from sources)
 
 ## Usage
 ### Install all modules
